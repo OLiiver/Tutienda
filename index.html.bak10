@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Es una tienda de ropa online">
+<title>La Roja</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/estilos.css" >
+
+
+
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body>
+
+	<div class="principal">
+    <!-- menú principal -->
+        <nav>
+            <ul>
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">nosotros</a></li>
+            <li><a href="#">tienda</a></li>
+            <li><a href="#">contacto</a></li>
+            </ul>
+        </nav>
+        
+    
+    <!-- imagenes en movimiento -->
+    <div style="margin-top:80px;">
+    <!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+        
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/img1.jpg" alt="img1" title="img1" id="wows1_0"/></li>
+<li><img src="data1/images/img2.png" alt="img2" title="img2" id="wows1_1"/></li>
+<li><img src="data1/images/img3.png" alt="img3" title="img3" id="wows1_2"/></li>
+<li><img src="data1/images/img4.jpg" alt="img4" title="img4" id="wows1_3"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="img1"><img src="data1/tooltips/img1.jpg" alt="img1"/>1</a>
+<a href="#" title="img2"><img src="data1/tooltips/img2.png" alt="img2"/>2</a>
+<a href="#" title="img3"><img src="data1/tooltips/img3.png" alt="img3"/>3</a>
+<a href="#" title="img4"><img src="data1/tooltips/img4.jpg" alt="img4"/>4</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.net">javascript slideshow</a> by WOWSlider.com v5.5</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1//wowslider.js"></script>
+	<script type="text/javascript" src="engine1//script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div class="slideshow"></div>
+    
+    <!-- remeras, polleritas, zapatos -->
+    
+    
+        <div class="contenedor">
+            <div class="contenedor-img">
+                <a href="#"	><img class="image" src="img/img5.jpg" width="320" height="480" alt="remera"/></a>
+            </div> 
+            <div class="contenedor-img">
+                <a href="#"><img  class="image" src="img/img6.jpg" width="320" height="250" alt="pollerita"/></a>
+            </div>
+            <div class="contenedor-img"><a href="#">
+                <img class="image" src="img/img7.jpg" width="300" height="300" alt="bolsa"/></a>
+            </div> 
+        </div>
+        
+        <!-- texto -->
+       <div class="contenedor-texto">
+            <h3>
+                Titulo del texto explicando la tienda Online
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, libero, laudantium! Natus, nemo, temporibus, quasi a nisi voluptatum eos obcaecati fugit quis laborum perspiciatis ut nesciunt commodi accusantium rerum. Iusto.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, totam, adipisci, officia, natus minus libero est a porro maiores obcaecati repellat nulla! Tenetur, amet nulla ad dicta debitis id distinctio! <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, illo, recusandae, eum, aperiam totam debitis dignissimos itaque ut exercitationem vel dolorem enim esse sequi provident placeat animi omnis vero quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, perspiciatis, quae, cum odit id harum fuga ad ut quidem facilis commodi repudiandae officia animi fugit quisquam nam laboriosam architecto voluptates.
+            </p>
+       </div>
+       
+       <div class=" botonera" style="float: none;">
+               <div class="botones bt-le">	
+                   <a href="#" class="a-boton">
+                      <h3>
+                        Trabaja con nosotros! deja tu CV
+                      </h3>
+                    </a>
+               </div>
+               
+               <div class="botones bt-ri">
+                   <h3> 
+                       <a href="#" class="a-boton">
+                       Conoce la nueva temporada
+                       </a>
+                   </h3> 
+               </div>
+       
+       </div>
+       
+       <footer>
+       		<p>&copy; 2015</p>
+       </footer>
+  </div>
+</body>
+</html>

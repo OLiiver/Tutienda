@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Es una tienda de ropa online">
+<title>La Roja</title>
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine2//style.css" media="screen" />
+	<script type="text/javascript" src="engine2//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine2//style.css" media="screen" />
+	<script type="text/javascript" src="engine2//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body>
+    <nav>
+	    <ul>
+        <li><a href="#">inicio</a></li>
+        <li><a href="#">nosotros</a></li>
+        <li><a href="#">tienda</a></li>
+        <li><a href="#">contacto</a></li>
+        </ul>
+    </nav>
+    
+	<div>
+    
+    </div>
+    
+</body>
+</html>

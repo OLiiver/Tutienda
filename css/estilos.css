@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* principal */
+
+body > div {
+	position: static;
+	max-width: 80%;
+	margin: 0 auto;		
+}
+
+
+/* menú */
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #DD4144;
+	text-align:center;
+	z-index: 800;
+}
+li {
+	display: inline-block;	
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 10px;
+}
+a{
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	-webkit-transition: all 0.5s 0.2s;
+	-o-transition: all 0.5s 0.2s;
+	transition: all 0.5s 0.2s;
+}
+li >  a:hover{
+	color: black;
+	font-size: 22px;
+}
+
+/* contenedor de imagenes*/
+
+.contenedor {
+	margin-top: 80px;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-img {
+	display: inline-block;
+	max-width:30%;
+	margin: 5px;
+		
+}
+.image {
+	max-width: 100%;
+	height:auto;	
+}
+
+/* texto de la tienda */
+
+.contenedor-texto {
+
+}
+
+.contenedor-texto h3 {
+	text-align:center;
+	font-size: 23px;	
+}
+
+.contenedor-texto p {
+	
+    padding: 10px 20px;
+	text-align: justify;
+}
+
+/* botonera */
+
+.botonera {
+		
+	}
+
+.botones {
+	display:inline-block;
+	max-width: 45%;
+}
+
+.bt-le {
+	float:left;	
+}
+
+.bt-ri {
+	float: right;
+}
+.a-boton {
+	font-size: 18px;
+	-webkit-transition: all 0.5s 0.2s;
+	-o-transition: all 0.5s 0.2s;
+	transition: all 0.5s 0.2s;
+			
+}
+.a-boton:hover{
+	font-size: 20px;
+	color:white;
+}
+
+/* footer */
+footer {
+	background-color: balack;
+	color: yellow;
+}
