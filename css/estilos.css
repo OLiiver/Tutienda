@@ -1,7 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
+h1, h2, h3, li > a {
+	font-family: 'Pacifico', cursive;	
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.marge {
+	margin: 25px 0;	
+}
 /* principal */
+
+
+/* body   */
+
+body {
+	background-color: #FFF;
+}
 
 body > div {
 	position: static;
@@ -20,14 +37,18 @@ nav {
 	text-align:center;
 	z-index: 800;
 }
+nav > ul {
+	margin: 4px;	
+}
 li {
 	display: inline-block;	
 	font-size: 18px;
-	padding: 10px;
 	margin: 0 10px;
 }
 li > a{
-	height: 30px;
+	padding: 10px 14px;
+	display: block;
+	height: auto;
 	color: white;
 	text-decoration: none;
 	-webkit-transition: all 0.5s 0.2s;
@@ -36,13 +57,19 @@ li > a{
 }
 li >  a:hover{
 	color: black;
-	font-size: 22px;
+}
+/*  Imagenes en movimiento*/
+
+.imagenes-movimiento{
+	margin-top: 48px;
+	margin-bottom: 35px;
+
 }
 
 /* contenedor de imagenes*/
 
 .contenedor {
-	margin-top: 80px;
+
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
@@ -51,10 +78,14 @@ li >  a:hover{
 .contenedor-img {
 	display: inline-block;
 	max-width:30%;
-	margin: 5px;
+	margin: 5px 9px;
 		
 }
+.contenedor-img > a {
+	display:block;	
+}
 .image {
+	position: relative;
 	max-width: 100%;
 	height:auto;	
 }
@@ -62,10 +93,12 @@ li >  a:hover{
 /* texto de la tienda */
 
 .contenedor-texto {
-
+	background-color: #FFF48E;
+	padding: 8px 12px;
 }
 
 .contenedor-texto h3 {
+	color: #FF4144;
 	text-align:center;
 	font-size: 23px;	
 }
@@ -73,7 +106,8 @@ li >  a:hover{
 .contenedor-texto p {
 	
     padding: 10px 20px;
-	text-align: justify;
+    text-align: center;
+    line-height: 1.5;
 }
 
 /* botonera */
