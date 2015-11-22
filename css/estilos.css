@@ -80,11 +80,11 @@ li >  a:hover{
 
 .botonera {
 		display:flex;
-		float:none;
+
 	}
 
 .botones {
-	display:inline-block;
+	
 	max-width: 45%;
 }
 
