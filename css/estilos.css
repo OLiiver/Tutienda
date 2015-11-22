@@ -97,10 +97,10 @@ li >  a:hover{
 .a-boton {
 	display:flex;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 20px;
 	padding: 20px; 
 	margin: 0 auto;
-	background-color:#D87B7C;
+	background-color:#FBFBE2;
 	opacity: 1.0;
 	
 	-webkit-transition: all 0.5s ease 0.2s;
