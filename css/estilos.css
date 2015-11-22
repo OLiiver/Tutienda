@@ -80,11 +80,10 @@ li >  a:hover{
 
 .botonera {
 		display:flex;
-
 	}
 
 .botones {
-	
+	display: inherit;
 	max-width: 45%;
 }
 
@@ -96,16 +95,23 @@ li >  a:hover{
 	float: right;
 }
 .a-boton {
+	display:flex;
 	text-decoration: none;
 	font-size: 18px;
-	-webkit-transition: all 0.5s 0.2s;
-	-o-transition: all 0.5s 0.2s;
-	transition: all 0.5s 0.2s;
+	padding: 20px; 
+	margin: 0 auto;
+	background-color:#D87B7C;
+	opacity: 1.0;
+	
+	-webkit-transition: all 0.5s ease 0.2s;
+	-o-transition: all 0.5s ease 0.2s;
+	transition: all 0.5s ease 0.2s;
 			
 }
 .a-boton:hover{
-	font-size: 20px;
-	color:white;
+	background-color: #EFEE8E;
+	color: #51B1D4;
+	opacity: 0.6;
 }
 
 /* footer */
