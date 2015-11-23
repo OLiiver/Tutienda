@@ -4,9 +4,13 @@
 h1, h2, h3, li > a {
 	font-family: 'Pacifico', cursive;	
 }
-p {
+p, h3{
 	font-family: 'Montserrat', sans-serif;
 }
+
+.contenedor marge, h3 {
+	font-family: 'Montserrat', sans-serif;
+	}
 
 .marge {
 	margin: 25px 0;	
@@ -36,6 +40,7 @@ nav {
 	background: #DD4144;
 	text-align:center;
 	z-index: 800;
+	
 }
 nav > ul {
 	margin: 4px;	
@@ -50,13 +55,16 @@ li > a{
 	display: block;
 	height: auto;
 	color: white;
-	text-decoration: none;
+	opacity: 1;
+	background-color: #DD4144;
+	text-decoration:none;
 	-webkit-transition: all 0.5s 0.2s;
 	-o-transition: all 0.5s 0.2s;
 	transition: all 0.5s 0.2s;
 }
 li >  a:hover{
 	color: black;
+	opacity: 0.6;
 }
 /*  Imagenes en movimiento*/
 
